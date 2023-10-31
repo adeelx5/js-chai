@@ -1,25 +1,29 @@
-let score = "hitesh"
+let score = "adeel" //
 
 //console.log(typeof score);
-//console.log(typeof(score));
+//console.log(typeof(score)); //it is like method()
+ 
+let valueInNumber = Number(score) //first letter of dt is capital, because conversion to number taking place
 
-let valueInNumber = Number(score)
 //console.log(typeof valueInNumber);
 //console.log(valueInNumber);
 
-
+// let score = null
 // "33" => 33
-// "33abc" => NaN
+// "33abc" or any string like "adeel" => NaN //if you check typeof this NaN, it will show as number which is confusing.
+
+// null => Number() changes it to 0 so it's not right. e.g. user inputs nothing in temperature field, then Number() changes it to 0 and that's not correct at all.
+
+// undefined => Number() changes it to NaN, that's also not correct.
 //  true => 1; false => 0
 
-let isLoggedIn = "hitesh"
+let isLoggedIn = "adeel" // trying with different values here like adeel, 1, true etc
 
 let booleanIsLoggedIn = Boolean(isLoggedIn)
 //  console.log(booleanIsLoggedIn);
-
 // 1 => true; 0 => false
 // "" => false
-// "hitesh" => true
+// "adeel" => true
 
 let someNumber = 33
 
@@ -41,7 +45,7 @@ let negValue = -value
 // console.log(2%3);
 
 let str1 = "hello"
-let str2 = " hitesh"
+let str2 = " adeel"
 
 let str3 = str1 + str2
 // console.log(str3);
